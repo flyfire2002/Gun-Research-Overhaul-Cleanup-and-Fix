@@ -1,0 +1,32 @@
+﻿CE_Gunpowder
+CE_Launchers
+Machining
+Gunsmithing         # Single Action
+BlowbackOperation
+Snek_MetallicCartridges
+GasOperation
+PrecisionRifling    # Modernisation
+MultibarrelWeapons
+ChargedShot
+GunTurrets          # Auto Turrets+
+Snek_DoubleAction
+Snek_BreakAction
+Snek_PumpAction
+Snek_LeverAction
+Snek_BoltAction
+Snek_HighCaliber
+Snek_SelfLoad
+Snek_Shotguns       # Self Loading Shotguns
+Snek_SMG
+Snek_SelectiveFire
+Snek_FlameThrowers
+Snek_LMG
+Snek_AmmoBelts
+Snek_Polymer
+Snek_Bakelite
+Snek_AdvancedGunFurniture
+Snek_Lenses
+Snek_SimpleScopes
+Snek_ModernScopes
+Snek_Caseless
+Snek_OpticalTargeting # Adv.AutoTurrets
