@@ -38,7 +38,7 @@
                     <value>
                         <researchPrerequisites>
                             <li>Snek_Shotguns</li>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
             </li>
@@ -53,7 +53,7 @@
                 <xpath>Defs/ThingDef[defName="CE_Gun_FNFAL"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Fiberglass</li>
                         </researchPrerequisites>
                     </value>
             </li>
@@ -101,7 +101,6 @@
                         <researchPrerequisites>
                             <li>Snek_ModernScopes</li>
                             <li>Snek_HighCaliber</li>
-                            <li>Snek_Bakelite</li>
                         </researchPrerequisites>
                     </value>
             </li>
@@ -111,6 +110,7 @@
                     <value>
                         <researchPrerequisites>
                             <li>Snek_HighCaliber</li>
+                            <li>CE_TurretHeavyWeapons</li>
                         </researchPrerequisites>
                     </value>
             </li>

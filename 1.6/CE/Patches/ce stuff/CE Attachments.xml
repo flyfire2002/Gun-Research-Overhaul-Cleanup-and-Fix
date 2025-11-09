@@ -37,7 +37,7 @@
                 <xpath>Defs/ThingDef[defName="CE_Gun_KSG"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
             </li>
@@ -47,6 +47,7 @@
                     <value>
                         <researchPrerequisites>
                             <li>CE_Launchers</li>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
             </li>

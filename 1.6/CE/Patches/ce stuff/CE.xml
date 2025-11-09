@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Patch>
-
-    <Operation Class="PatchOperationRemove">
+    <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="CE_FlareGun"]/recipeMaker/researchPrerequisite</xpath>
-    </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="CE_FlareGun"]/recipeMaker</xpath>
             <value>
-                <researchPrerequisite Inherit="False"><li>Snek_BreakAction</li></researchPrerequisite>
+                <researchPrerequisite Inherit="False">Snek_BreakAction</researchPrerequisite>
             </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Gun_BinocularsRadio"]/recipeMaker</xpath>
             <value>
-                <researchPrerequisite Inherit="False"><li>Machining</li></researchPrerequisite>
+                <researchPrerequisite Inherit="False">Machining</researchPrerequisite>
             </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Gun_BinocularsRadio"]/recipeMaker</xpath>
             <value>
-                <researchPrerequisites Inherit="False"><li>Snek_Lenses</li></researchPrerequisites>
+                <researchPrerequisites Inherit="False">
+                  <li>Snek_Lenses</li>
+                </researchPrerequisites>
             </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
@@ -47,7 +45,7 @@
     </Operation>
     <!-- Turret_AGSThirty -->
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Turret_M240B"]/researchPrerequisites</xpath>
+        <xpath>Defs/ThingDef[defName="Turret_AGSThirty"]/researchPrerequisites</xpath>
             <value>
                 <li>Snek_AmmoBelts</li>
             </value>
