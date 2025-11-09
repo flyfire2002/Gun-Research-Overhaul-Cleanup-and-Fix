@@ -20,7 +20,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_RugerSuperRedhawk"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Rubber</li>
                             <li>Snek_SimpleScopes</li>
                         </researchPrerequisites>
                     </value>
@@ -37,7 +37,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_RugerLCR"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Rubber</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -53,7 +53,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_TaurusM455Tracker"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Rubber</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -69,7 +69,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_TaurusRagingBull"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Rubber</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -85,7 +85,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_TaurusRagingBull_44Mag"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Rubber</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -109,7 +109,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_SW686Gun"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Rubber</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -129,16 +129,69 @@
                         <researchPrerequisite Inherit="False">Snek_DoubleAction</researchPrerequisite>
                     </value>
                 </li>
-                <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="HIDGun_SWR8Revolver"]/recipeMaker</xpath>
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_SWR8Revolver"]/recipeMaker/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Rubber</li>
                             <li>CE_SimpleNV</li>
                         </researchPrerequisites>
                     </value>
                 </li>
 
+                <!-- S&W Model 460V -->
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_SW460V"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_DoubleAction</researchPrerequisite>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_SW460V"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_Rubber</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- S&W Model 460XVR -->
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_SW460XVR_1050In"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_DoubleAction</researchPrerequisite>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_SW460XVR_1050In"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_Rubber</li>
+                            <li>Snek_SimpleScopes</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- Beretta M9A1 -->
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_BerettaM9Gun"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_Bakelite</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- CZ 75B -->
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_CZ75B"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_Bakelite</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                
                 <!-- CZ P-07 -->
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_CZP07_Gun"]/recipeMaker</xpath>
@@ -154,7 +207,17 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_P320SIG"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- SIG P322 -->
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_P322SIG"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -164,7 +227,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_TECNine"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -182,7 +245,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_P32KelTec"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -190,6 +253,16 @@
                 <!-- Ruger LCP -->
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_RugerLCP_Base"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_Polymer</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- TT-33 -->
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_TT33Tokarev"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
                             <li>Snek_Bakelite</li>
@@ -202,7 +275,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_YeetCannon"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -212,7 +285,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_Glock17S_Base"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -230,7 +303,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_Glock19S"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -240,7 +313,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_FiveSeven"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -250,7 +323,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_USP45Std"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -261,7 +334,7 @@
                     <value>
                         <researchPrerequisites>
                             <li>BlowbackOperation</li>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                             <li>CE_SimpleNV</li>
                         </researchPrerequisites>
                     </value>
@@ -272,7 +345,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_WaltherPDP_Compact_Base"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -280,6 +353,16 @@
                 <!-- Walther P22Q -->
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_WaltherP22Q"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_Polymer</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- Walther PPK -->
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_WaltherPPK"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
                             <li>Snek_Bakelite</li>
@@ -295,12 +378,44 @@
                     </value>
                 </li>
 
-                <!-- Desert Eagle 50 -->
+                <!-- Desert Eagle Mk XIX -->
                 <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="HIDGun_SWR8Revolver"]/recipeMaker</xpath>
+                <xpath>Defs/ThingDef[@Name="HID_BaseDesertEagleMarkXIX"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
                             <li>Snek_HighCaliber</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- Powell Knife Pistol -->
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_PowellKnifePistol"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_BreakAction</researchPrerequisite>
+                    </value>
+                </li>
+
+                <!-- American Derringer Model 4 -->
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_AmDerringerM4Alaskan"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_BreakAction</researchPrerequisite>
+                    </value>
+                </li>
+
+                <!-- Rossi Brawler -->
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_RossiBrawler"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_BreakAction</researchPrerequisite>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_RossiBrawler"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
                 </li>

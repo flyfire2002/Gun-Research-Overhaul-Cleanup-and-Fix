@@ -14,16 +14,18 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_M320GLM"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
                 </li>
 
                 <!-- Inkunzi PAW -->
                 <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="HIDGun_InkunziPAW"]/recipeMaker/researchPrerequisites</xpath>
+                <xpath>Defs/ThingDef[defName="HIDGun_InkunziPAW"]/recipeMaker</xpath>
                     <value>
-                        <li>Snek_Bakelite</li>
+                        <researchPrerequisites>
+                          <li>Snek_Polymer</li>
+                        </researchPrerequisites>
                     </value>
                 </li>
 
@@ -32,7 +34,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_Truvelo_CMS"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                             <li>Snek_ModernScopes</li>
                         </researchPrerequisites>
                     </value>
@@ -43,7 +45,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_QLU11GL"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                             <li>Snek_ModernScopes</li>
                         </researchPrerequisites>
                     </value>

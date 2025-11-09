@@ -13,7 +13,7 @@
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_REAPR"]/recipeMaker/researchPrerequisites</xpath>
                     <value>
-                        <li>Snek_Bakelite</li>
+                        <li>Snek_Polymer</li>
                         <li>Snek_ModernScopes</li>
                         <li>Snek_AmmoBelts</li>
                     </value>
@@ -23,7 +23,7 @@
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_LAMG"]/recipeMaker/researchPrerequisites</xpath>
                     <value>
-                        <li>Snek_Bakelite</li>
+                        <li>Snek_Polymer</li>
                         <li>Snek_AmmoBelts</li>
                     </value>
                 </li>
@@ -32,7 +32,7 @@
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_FNMinimi762MkThree"]/recipeMaker/researchPrerequisites</xpath>
                     <value>
-                        <li>Snek_Bakelite</li>
+                        <li>Snek_Polymer</li>
                         <li>Snek_AmmoBelts</li>
                     </value>
                 </li>
@@ -41,7 +41,7 @@
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_XM8_LMG"]/recipeMaker/researchPrerequisites</xpath>
                     <value>
-                        <li>Snek_Bakelite</li>
+                        <li>Snek_Polymer</li>
                         <li>Snek_LMG</li>
                     </value>
                 </li>
@@ -50,9 +50,19 @@
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_MTwoFifty_NGSW"]/recipeMaker/researchPrerequisites</xpath>
                     <value>
-                        <li>Snek_Bakelite</li>
+                        <li>Snek_Polymer</li>
                         <li>Snek_ModernScopes</li>
                         <li>Snek_AmmoBelts</li>
+                    </value>
+                </li>
+
+                <!-- MG 3 -->
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_MGThree"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_AmmoBelts</li>
+                        </researchPrerequisites>
                     </value>
                 </li>
 
