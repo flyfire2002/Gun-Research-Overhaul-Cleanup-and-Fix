@@ -1,5 +1,7 @@
 ﻿CE_Gunpowder
 CE_Launchers
+CE_SimpleNV
+CE_AdvancedNV
 Machining
 Gunsmithing         # Single Action
 BlowbackOperation
