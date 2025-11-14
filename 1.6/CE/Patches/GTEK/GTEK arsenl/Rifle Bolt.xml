@@ -27,14 +27,6 @@
                     	<researchPrerequisite Inherit="False">Snek_BoltAction</researchPrerequisite>
                     </value>
                 </li>
-                <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="HIDGun_M1903Springfield"]/recipeMaker</xpath>
-                    <value>
-                        <researchPrerequisites>
-                            <li>Snek_SimpleScopes</li>
-                        </researchPrerequisites>
-                    </value>
-                </li>
 
                 <!-- L42A1 -->
                 <li Class="PatchOperationReplace">
@@ -183,12 +175,12 @@
                 </li>
 
                 <!-- AK-50 -->
-                <li Class="PatchOperationAdd">
+                <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="HIDGun_AK50AMR"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
                             <li>PrecisionRifling</li>
-                            <li>CE_AdvancedNV</li>
+                            <li>CE_SimpleNV</li>
                             <li>Snek_AdvancedGunFurniture</li>
                             <li>Snek_ModernScopes</li>
                             <li>Snek_HighCaliber</li>
