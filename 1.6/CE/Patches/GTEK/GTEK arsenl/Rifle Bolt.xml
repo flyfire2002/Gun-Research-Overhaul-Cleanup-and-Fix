@@ -176,7 +176,7 @@
 
                 <!-- AK-50 -->
                 <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="HIDGun_AK50AMR"]/recipeMaker</xpath>
+                <xpath>Defs/ThingDef[defName="HIDGun_AK50AMR"]/recipeMaker/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
                             <li>PrecisionRifling</li>
