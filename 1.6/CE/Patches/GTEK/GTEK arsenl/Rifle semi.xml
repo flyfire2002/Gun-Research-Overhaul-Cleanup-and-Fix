@@ -27,7 +27,7 @@
                     <value>
                         <researchPrerequisites>
                             <li>PrecisionRifling</li>
-                            <li>CE_SimpleNV</li>
+                            <li>CE_AdvancedNV</li>
                             <li>Snek_Bakelite</li>
                             <li>Snek_ModernScopes</li>
                         </researchPrerequisites>
@@ -45,7 +45,8 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_M76Zastava"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_ModernScopes</li>
+                            <li>Snek_SimpleScopes</li>
+                            <li>CE_SimpleNV</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -57,7 +58,18 @@
                         <researchPrerequisites>
                             <li>PrecisionRifling</li>
                             <li>CE_AdvancedNV</li>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_AdvancedGunFurniture</li>
+                            <li>Snek_ModernScopes</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                
+                <!-- KAC SR-25 PR -->
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_KAC_SRTwentyFive"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_AdvancedGunFurniture</li>
                             <li>Snek_ModernScopes</li>
                         </researchPrerequisites>
                     </value>
@@ -68,6 +80,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_UDMC_S7PVAR"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
+                            <li>Snek_AdvancedGunFurniture</li>
                             <li>Snek_ModernScopes</li>
                         </researchPrerequisites>
                     </value>
@@ -93,13 +106,35 @@
                     </value>
                 </li>
 
+                <!--Ruger SFAR 6.5 20"-->
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_RugerSFAR65_20in"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_AdvancedGunFurniture</li>
+                            <li>Snek_ModernScopes</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
                 <!-- Alexander Arms .50 Beowolf AR-15 -->
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_AR15Beowulf"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_AdvancedGunFurniture</li>
                             <li>Snek_HighCaliber</li>
+                            <li>Snek_ModernScopes</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- Pheonix Weaponry Christine -->
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_AR10Christine"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_AdvancedGunFurniture</li>
                             <li>Snek_ModernScopes</li>
                         </researchPrerequisites>
                     </value>
@@ -112,12 +147,12 @@
                         <researchPrerequisites>
                             <li>PrecisionRifling</li>
                             <li>CE_SimpleNV</li>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
                 </li>
 
-                <!-- Winchester Ranger -->
+                <!-- Springfield M1A Scout Squad -->
                 <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="HIDGun_SpringfieldM1A_ScoutSquad"]/recipeMaker/researchPrerequisite</xpath>
                     <value>
@@ -128,17 +163,23 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_SpringfieldM1A_ScoutSquad"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_ModernScopes</li>
+                            <li>Snek_SimpleScopes</li>
                         </researchPrerequisites>
                     </value>
                 </li>
 
                 <!-- SIG 556 -->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_SIG556Gun_LPVO"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">GasOperation</researchPrerequisite>
+                    </value>
+                </li>
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_SIG556Gun_LPVO"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Snek_Bakelite</li>
+                            <li>Snek_Polymer</li>
                             <li>Snek_ModernScopes</li>
                         </researchPrerequisites>
                     </value>
