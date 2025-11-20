@@ -2,7 +2,7 @@
 
 <Patch>
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="Gun_AutoPistol"]/recipeMaker/researchPrerequisite</xpath>
+        <xpath>Defs/ThingDef[defName="Gun_Autopistol"]/recipeMaker/researchPrerequisite</xpath>
             <value>
                 <researchPrerequisite>Snek_SelfLoad</researchPrerequisite>
             </value>
