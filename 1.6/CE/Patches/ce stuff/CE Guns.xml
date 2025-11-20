@@ -49,14 +49,6 @@
                         <researchPrerequisite Inherit="False">Snek_SelectiveFire</researchPrerequisite>
                     </value>
             </li>
-            <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="CE_Gun_FNFAL"]/recipeMaker</xpath>
-                    <value>
-                        <researchPrerequisites>
-                            <li>Snek_Fiberglass</li>
-                        </researchPrerequisites>
-                    </value>
-            </li>
             <!-- AKM -->
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="CE_Gun_AKM"]/recipeMaker/researchPrerequisite</xpath>
