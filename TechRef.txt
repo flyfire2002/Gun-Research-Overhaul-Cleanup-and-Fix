@@ -26,7 +26,6 @@ Snek_LMG
 Snek_AmmoBelts
 Snek_Rubber
 Snek_Bakelite
-Snek_Fiberglass
 Snek_Polymer
 Snek_AdvancedGunFurniture
 Snek_Lenses

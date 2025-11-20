@@ -34,20 +34,17 @@
             </value>
     </Operation>
     <!-- assault rifle -->
-    <Operation Class="PatchOperationRemove">
+    <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Gun_AssaultRifle"]/recipeMaker/researchPrerequisite</xpath>
+	<value>
+	    <researchPrerequisite Inherit="False">GasOperation</researchPrerequisite>
+	</value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Gun_AssaultRifle"]/recipeMaker</xpath>
-            <value>
-                <researchPrerequisite Inherit="False"><li>PrecisionRifling</li></researchPrerequisite>
-            </value>
-    </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Gun_AssaultRifle"]/recipeMaker</xpath>
-            <value>
-                <researchPrerequisites Inherit="False"><li>Snek_Bakelite</li></researchPrerequisites>
-            </value>
+        <value>
+            <researchPrerequisites Inherit="False"><li>Snek_Bakelite</li></researchPrerequisites>
+        </value>
     </Operation>
     <!-- sniper -->
     <Operation Class="PatchOperationRemove">
@@ -63,7 +60,7 @@
         <xpath>Defs/ThingDef[defName="Gun_SniperRifle"]/recipeMaker</xpath>
             <value>
                 <researchPrerequisites Inherit="False">
-                    <li>Snek_Bakelite</li>
+                    <li>Snek_Polymer</li>
                     <li>Snek_ModernScopes</li>
                 </researchPrerequisites>
             </value>
