@@ -132,6 +132,12 @@
                     </value>
             </li>
             <!-- Jericho -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="CE_Gun_Jericho"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
+                    </value>
+            </li>
             <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="CE_Gun_Jericho"]/recipeMaker</xpath>
                     <value>

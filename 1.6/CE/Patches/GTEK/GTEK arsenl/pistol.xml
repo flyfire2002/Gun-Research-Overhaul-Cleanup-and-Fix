@@ -173,6 +173,12 @@
                 </li>
 
                 <!-- Beretta M9A1 -->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_BerettaM9Gun"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
+                    </value>
+                </li>
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_BerettaM9Gun"]/recipeMaker</xpath>
                     <value>
@@ -183,6 +189,12 @@
                 </li>
 
                 <!-- CZ 75B -->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_CZ75B"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
+                    </value>
+                </li>
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_CZ75B"]/recipeMaker</xpath>
                     <value>
@@ -202,7 +214,21 @@
                     </value>
                 </li>
 
+                <!--SIG P226 Elite FS-->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_P226SIG"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
+                    </value>
+                </li>
+
                 <!-- SIG P320 -->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_P320SIG"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
+                    </value>
+                </li>
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_P320SIG"]/recipeMaker</xpath>
                     <value>
@@ -219,6 +245,22 @@
                         <researchPrerequisites>
                             <li>Snek_Polymer</li>
                         </researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- RIA 1911-A1-->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_RIA1911FS"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
+                    </value>
+                </li>
+                
+                <!--Colt Delta Elite-->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_ColtDeltaElite"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
                     </value>
                 </li>
 
@@ -241,6 +283,12 @@
                 </li>
 
                 <!-- KelTec P32 -->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_P32KelTec"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
+                    </value>
+                </li>
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_P32KelTec"]/recipeMaker</xpath>
                     <value>
@@ -251,6 +299,12 @@
                 </li>
 
                 <!-- Ruger LCP -->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_RugerLCP_Base"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
+                    </value>
+                </li>
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_RugerLCP_Base"]/recipeMaker</xpath>
                     <value>
@@ -261,6 +315,12 @@
                 </li>
 
                 <!-- TT-33 -->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_TT33Tokarev"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
+                    </value>
+                </li>
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_TT33Tokarev"]/recipeMaker</xpath>
                     <value>
@@ -281,6 +341,12 @@
                 </li>
 
                 <!-- Glock 17 -->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_Glock17S_Base"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
+                    </value>
+                </li>
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_Glock17S_Base"]/recipeMaker</xpath>
                     <value>
@@ -299,6 +365,12 @@
                 </li>
 
                 <!-- Glock 19 -->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_Glock19S"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
+                    </value>
+                </li>
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_Glock19S"]/recipeMaker</xpath>
                     <value>
@@ -319,6 +391,12 @@
                 </li>
 
                 <!-- H&K USP -->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_USP45Std"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
+                    </value>
+                </li>
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_USP45Std"]/recipeMaker</xpath>
                     <value>
@@ -333,7 +411,7 @@
                 <xpath>Defs/ThingDef[defName="HIDGun_USP45Tactical"]/recipeMaker/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>BlowbackOperation</li>
+                            <li>Snek_SelfLoad</li>
                             <li>Snek_Polymer</li>
                             <li>CE_SimpleNV</li>
                         </researchPrerequisites>
