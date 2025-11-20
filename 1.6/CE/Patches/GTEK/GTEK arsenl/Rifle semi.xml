@@ -46,7 +46,6 @@
                     <value>
                         <researchPrerequisites>
                             <li>Snek_SimpleScopes</li>
-                            <li>CE_SimpleNV</li>
                         </researchPrerequisites>
                     </value>
                 </li>
