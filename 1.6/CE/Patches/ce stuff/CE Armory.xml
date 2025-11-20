@@ -305,7 +305,6 @@
                         <researchPrerequisites>
                             <li>Snek_ModernScopes</li>
                             <li>Snek_AdvancedGunFurniture</li>
-                            <li>Snek_Polymer</li>
                         </researchPrerequisites>
                     </value>
             </li>
@@ -325,7 +324,7 @@
                     <value>
                         <researchPrerequisites>
                             <li>Snek_ModernScopes</li>
-                            <li>Snek_Fiberglass</li>
+                            <li>Snek_Polymer</li>
                             <li>Snek_HighCaliber</li>
                         </researchPrerequisites>
                     </value>
@@ -362,6 +361,16 @@
                     </value>
             </li>
             <!--===== Emplacements =====-->
+            <!-- Gatling Gun -->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="CE_Turret_GatlingGun"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_SelfLoad</li>
+                            <li>CE_TurretHeavyWeapons</li>
+                        </researchPrerequisites>
+                    </value>
+            </li>
             <!-- M1919 -->
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="CE_Turret_M1919Browning"]/researchPrerequisites</xpath>
