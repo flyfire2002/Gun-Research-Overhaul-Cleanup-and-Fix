@@ -36,6 +36,22 @@
                         <researchPrerequisite Inherit="False">Snek_LeverAction</researchPrerequisite>
                     </value>
                 </li>
+                
+                <!-- Winchester 1892 -->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_WinchesterNinetyTwo"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_LeverAction</researchPrerequisite>
+                    </value>
+                </li>
+                
+                <!--Winchester 94-->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_WinchesterNinetyFour"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_LeverAction</researchPrerequisite>
+                    </value>
+                </li>
 
                 <!-- Winchester Ranger -->
                 <li Class="PatchOperationReplace">

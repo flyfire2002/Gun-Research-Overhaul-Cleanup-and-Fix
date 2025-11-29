@@ -380,9 +380,25 @@
                     </value>
                 </li>
 
+                <!-- Glock 45 -->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_Glock45S"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_Glock45S"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_Polymer</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
                 <!-- FN Five-SeveN -->
                 <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="HIDGun_FiveSeven"]/recipeMaker</xpath>
+                <xpath>Defs/ThingDef[@Name="HID_BaseFiveSeven"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
                             <li>Snek_Polymer</li>
@@ -420,7 +436,7 @@
 
                 <!-- Walther PDP Compact -->
                 <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="HIDGun_WaltherPDP_Compact_Base"]/recipeMaker</xpath>
+                <xpath>Defs/ThingDef[@Name="HIDGun_WaltherPDP_Compact_Base"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
                             <li>Snek_Polymer</li>

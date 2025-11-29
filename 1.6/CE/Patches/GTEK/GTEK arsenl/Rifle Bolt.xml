@@ -74,7 +74,7 @@
 
                 <!-- Barrett MRAD -->
                 <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="HIDGun_BarrettMRAD_338Lapua"]/recipeMaker</xpath>
+                <xpath>Defs/ThingDef[@Name="HID_BaseBarrettMRAD_338Lapua"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
                             <li>Snek_AdvancedGunFurniture</li>
