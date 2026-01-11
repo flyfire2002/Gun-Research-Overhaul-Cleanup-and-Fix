@@ -188,6 +188,38 @@
                     </value>
                 </li>
 
+                <!-- AK-74 -->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_AK74Kalash"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelectiveFire</researchPrerequisite>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_AK74Kalash"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_Bakelite</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                <!-- AK-74GL -->
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_AK74KalashGL"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">Snek_SelectiveFire</researchPrerequisite>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="HIDGun_AK74KalashGL"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_Bakelite</li>
+                            <li>CE_Launchers</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
                 <!-- AK-103 -->
                 <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[defName="HIDGun_AK103Kalash"]/recipeMaker</xpath>

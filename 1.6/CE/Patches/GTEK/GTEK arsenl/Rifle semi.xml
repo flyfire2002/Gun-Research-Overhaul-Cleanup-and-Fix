@@ -50,6 +50,31 @@
                     </value>
                 </li>
 
+                <!-- SVD -->
+                <li Class="PatchOperationAdd">
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[@Name="HID_BaseSVD"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite Inherit="False">GasOperation</researchPrerequisite>
+                    </value>
+                </li>
+                <xpath>Defs/ThingDef[@Name="HID_BaseSVD"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Snek_SimpleScopes</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[@Name="HID_BaseSVD_Polymer"]/recipeMaker</xpath>
+                    <value>
+                        <researchPrerequisites Inherit="False">
+                            <li>Snek_SimpleScopes</li>
+                            <li>Snek_Polymer</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
                 <!-- DS Arms SA-58 DMR -->
                 <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="HIDGun_SA58_dmr"]/recipeMaker/researchPrerequisites</xpath>

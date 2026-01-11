@@ -10,7 +10,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Gun_MachinePistol"]/recipeMaker/researchPrerequisite</xpath>
             <value>
-                <researchPrerequisite>Snek_SMG</researchPrerequisite>
+                <researchPrerequisite Inherit="False">Snek_SMG</researchPrerequisite>
             </value>
     </Operation>
     <!-- Heavy smg -->
@@ -18,6 +18,14 @@
         <xpath>Defs/ThingDef[defName="Gun_HeavySMG"]/recipeMaker/researchPrerequisite</xpath>
             <value>
                 <researchPrerequisite Inherit="False"><li>Snek_SMG</li></researchPrerequisite>
+            </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_HeavySMG"]/recipeMaker</xpath>
+            <value>
+                <researchPrerequisites>
+                    <li>Snek_Polymer</li>
+                </researchPrerequisites>
             </value>
     </Operation>
     <!-- LMG -->
