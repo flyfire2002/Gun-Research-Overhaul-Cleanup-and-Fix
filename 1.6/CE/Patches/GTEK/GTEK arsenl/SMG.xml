@@ -156,12 +156,10 @@
                 </li>
                 
                 <!--Luty SMG-->
-                <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="HIDGun_LutySMG"]/recipeMaker</xpath>
+                <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="HIDGun_LutySMG"]/recipeMaker/researchPrerequisite</xpath>
                     <value>
-                        <researchPrerequisites>
-                            <li>Snek_SelfLoad</li>
-                        </researchPrerequisites>
+                        <researchPrerequisite Inherit="False">Snek_SelfLoad</researchPrerequisite>
                     </value>
                 </li>
 
