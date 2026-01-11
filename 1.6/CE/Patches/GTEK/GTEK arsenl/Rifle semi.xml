@@ -51,13 +51,13 @@
                 </li>
 
                 <!-- SVD -->
-                <li Class="PatchOperationAdd">
                 <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[@Name="HID_BaseSVD"]/recipeMaker/researchPrerequisite</xpath>
                     <value>
                         <researchPrerequisite Inherit="False">GasOperation</researchPrerequisite>
                     </value>
                 </li>
+                <li Class="PatchOperationAdd">
                 <xpath>Defs/ThingDef[@Name="HID_BaseSVD"]/recipeMaker</xpath>
                     <value>
                         <researchPrerequisites>
